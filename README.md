@@ -19,7 +19,9 @@
 <img width="640" height="229" alt="image" src="https://github.com/user-attachments/assets/5f060e03-b092-4455-9e7f-d06033d284c1" /><br><br><br>
 **设置好之后开机时会自动登录；掉线后一分钟内会自动重连，基本不用再管。**
 # 成功🎇🎇🎇🎇
-到了这一步已经成功了，如果有问题欢迎指出，可以到issues里提交建议。
+到了这一步已经成功了，网络连接已经正常。
+<img width="745" height="486" alt="image" src="https://github.com/user-attachments/assets/e2ddf361-26c8-470c-9eda-7ff44af0027f" /><br>
+如果有问题欢迎指出，可以到issues里提交建议。
 # 免责声明
 **仅供学习交流使用，请勿用于任何违反学校规定行为，造成的任何后果由使用者自行承担。** <br><br><br><br><br>
-日后若是惹出祸端，请不要供出学长，也请不要把万般因果尽加在学长身上。🙂🙂
+# 日后若是惹出祸端，请不要供出学长，也请不要把万般因果尽加在学长身上。🙂🙂
