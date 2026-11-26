@@ -8,4 +8,18 @@
 <img width="633" height="1324" alt="image" src="https://github.com/user-attachments/assets/e1e2eb1a-822e-4b17-b97e-aed528f923e1" /><br><br><br>
 如果搜索出来有多个但又看不懂可以把里面内容全部复制下来丢给AI去分析，再把登录页面截图发给AI让它根据以上信息生成一个登录脚本。我这里会提供一个写好的登录脚本（**drcom-login.sh**）只需要填上你的账号和密码。
 # 登录
-把网线插到你设置的Wan口什么，使用SSH软件登录到你的软路由，用命令去到`/`目录,请不要随便更改脚本的存放位置，这关系到后面的命令执行。
+把网线插到你设置的Wan口，使用SSH软件登录到你的软路由，用`CD`命令去到`/`目录,请不要随便更改脚本的存放位置，这关系到后面的命令执行。然后运行一次填好账号密码的脚本`sh drcom-login.sh`弹出以下内容说明登录成功了。<br>
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/d4def75d-9b1f-4c84-9bd6-d1e99138399d" /><br><br><br>
+接下来去“网络→接口”里面查看wan口是否拿到IP，显示这样的已经是成功了。<img width="2298" height="132" alt="image" src="https://github.com/user-attachments/assets/a93663e3-4b1d-480d-99ed-197e0fb3b082" />
+# 最后设置
+接下来设置开机自动登录和看门狗命令。我这里同样会提供一个自动脚本。<br>
+## 第一步：开机等 **eth1`<wan>`** 拿到 IP 后自动登录。<br>
+<img width="573" height="230" alt="image" src="https://github.com/user-attachments/assets/7b4350c9-1e4c-4ef7-9f96-7fe113f0303a" /><br><br><br>
+## 第 2 步：看门狗（每分钟检查，掉线就自动重登）
+<img width="640" height="229" alt="image" src="https://github.com/user-attachments/assets/5f060e03-b092-4455-9e7f-d06033d284c1" /><br><br><br>
+**设置好之后开机时会自动登录；掉线后一分钟内会自动重连，基本不用再管。**
+# 成功🎇🎇🎇🎇
+到了这一步已经成功了，如果有问题欢迎指出，可以到issues里提交建议。
+# 免责声明
+**仅供学习交流使用，请勿用于任何违反学校规定行为，造成的任何后果由使用者自行承担。** <br><br><br><br><br>
+日后若是惹出祸端，请不要供出学长，也请不要把万般因果尽加在学长身上。🙂🙂
